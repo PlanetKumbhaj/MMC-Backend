@@ -1,40 +1,20 @@
-# NODE.JS SERVER FOR USER REGISTRATION AND LOGIN WITH POSTGRES DATABASE
+# Solution-Challenge
 
-This is a node.js backedn server for registering users and hence can therefore be intergrated in any web or mobile application that requires users to be authenticated
+About Us 
 
-It also uses the JWT Library to provide users with a token on registering or when logging in
+"Lets Help" exists to alleviate poverty by enabling the world to give. Established in 2022, it is the biggest and the most trusted giving platform in the world. It enables individuals and organizations to raise and donate funds conveniently to any cause they care about, with offerings including crowdfunding, corporate giving, cause marketing, and philanthropy consulting. Lets Help’s community of 2K+ donors and 5+ partners have supported 50+ verified nonprofits, serving 15K+ people across the world.
 
-## NODE.JS BACKEND SETUP
+Our Mission
 
-### INSTALLATIONS
+Lets Help's mission is to empower people to create a path out of poverty for themselves and for their communities by providing help and opportunities to the needy by thorough intensive capacity building interventions, income generation, and health activities with special focus on awareness campaings for the oppressed society.
 
-To run the server first you need to the following programs installed on your machine
+Our Vision
 
-1. **Node.js**
-2. **postresql**
+We want to create an Utopia, a world of hope with happiness all around. A greener world where no one dies because of lack of funds or unavailability of the resources. A world of tolerance and social justice, where poverty has been overcome and people live in dignity and security.
 
-If the following programs are missing kindly visit the links below, download and install them.
+Youtube Video Link for explaining the project:-
+https://youtu.be/KvpwnQfg4kE
 
-1. [Node js](https://nodejs.org/en/)
-2. [PostgreSQL](https://postgresql.org/download/)
+This is the full page of screenshot of our website:-
 
-### STARTING THE SERVER
-
-If you have the all installations ready, run the following commands in your editor
-
-1. **npm install** to install the packages required by the server
-2. **npm run dev** to start your server on the machine
-
-### SETTING UP YOUR DATABASE
-
-In your terminal run the following commands to set up the database
-
-1. **psql -U postgres** to connect to your postgresql database
-2. Open the file \*_database.sql_ and follow the instructions on creating your database
-3. Type **\c databasename** to switch to your database
-4. Now back in the **databse.sql** file, follow te instruction on creating the **table for users**
-5. In your server folder add the **.env** file and provide your postgress setup as required in the file **db.js** and also add the **secret** in the **.env** file still for the JWT Token e.g. in your **.env file** add **secret = jswt87T** and the database setups.
-
-### TESTING THE SERVER
-
-Install **postman** to test if your server is working properly by routing the given files e.g for **login** in postman type **http"//localhost:8000/auth/login** and provide the required details for login. The method is a **POST** request as required by the server in the file.
+<img align="center"  src="/img/Full%20page%20view.png">
